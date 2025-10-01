@@ -1,0 +1,100 @@
+Build a professional, single business website for JobJam — a New Zealand-based online coaching service that helps young people (ages 16–24, first-time jobseekers) gain the skills and confidence to land their first job. The website must be visually stunning, simple to navigate, mobile-friendly, and fully functional with backend forms and payment integration.
+
+Branding & Tone
+
+Name & Logo: JobJam (the “m” is inside a jam jar).
+
+Tone: Warm, encouraging, professional, supportive — like a trusted mentor.
+
+Style: Clean, credible, friendly. Not corporate, not fancy — simple and approachable.
+
+Colours: Deep navy (#0B2A4A), teal (#1FA3A3), warm golden yellow (#FFC857), off-white (#F8FAFC), light grey (#E6EEF5).
+
+Fonts: Headings: Poppins or Inter bold. Body: Inter or Source Sans Pro.
+
+Images: Friendly, diverse NZ youth, job interviews, mentorship. Use stock images that feel real (not overly corporate).
+
+Structure (Navigation + Sections)
+
+Header (sticky): Logo left, links (Home, Courses, FAQ, Testimonials, About, Contact), CTA button “Enrol now”.
+
+Hero Section:
+
+Headline: “Get your first job — with real coaching, real confidence, and a 100% guarantee.”
+
+Subheadline: “Over 12 years helping 1,500+ people. Interview practice, salary negotiation, and ongoing support for first-time jobseekers in NZ.”
+
+Buttons: “Enrol now” (primary), “See courses & prices” (secondary).
+
+Layout: Text left, image right.
+
+Trust strip underneath: “12+ years experience • 1,500+ people placed • 3,000+ interviews.”
+
+Value Section:
+3 benefit cards with icons:
+
+Interview practice that feels real.
+
+Salary & negotiation training.
+
+One-to-one guidance during your job hunt.
+
+Courses / Pricing (3 cards, comparison layout):
+
+2-Hour Intro ($300): live coaching, CV checklist, mock interview. CTA: “Enrol now.”
+
+12-Month Support Plan ($3,000, $500 upfront + $500/mo x 5): weekly check-ins, full support, money-back guarantee. CTA: “Sign up.”
+
+6-Month Fast Path ($6,000, $1,000 upfront + $1,000/mo x 5): everything above + priority support. CTA: “Buy now.”
+
+Highlight the 6-month or 12-month as best value.
+
+Guarantee banner: “Our promise: Get a job within your plan’s timeframe or your money back.”
+
+How It Works:
+Simple 3-step layout:
+
+Sign up for the course.
+
+Complete your training + mock interviews.
+
+Ongoing support until you land a job.
+
+Testimonials: Carousel with 3 placeholder client stories (can be updated later).
+
+FAQ: 6–7 key questions, e.g. “What if I don’t get a job?”, “Do you offer refunds?”, “Online or in-person?”, “Can I pay in instalments?”, “What results can I expect?”
+
+About Section:
+Short founder story: “With 12+ years experience, 3,000+ interviews, and 1,500+ placements, I created JobJam to help young people navigate their first job search with confidence.”
+Include friendly stock headshot of Rohan Wakefield.
+
+Final Call-to-Action: Large banner: “Ready to land your first job? Enrol now.” Button links to sign-up/payment.
+
+Contact Section: Simple form (Name, Email, Message) + email address placeholder (hello@jobjam.co.nz
+).
+
+Backend Functionality
+
+Forms: Lead capture (name + email) + sign-up form (full name, email, phone optional, preferred course dropdown, start date optional, short note textarea, terms/privacy checkbox).
+
+Payments: Stripe/PayPal checkout for each course with pricing and plan options. Show confirmation page and send confirmation email.
+
+Guarantee: Display guarantee terms clearly and link to separate guarantee page.
+
+Legal: Privacy Policy + Refund Policy pages. Cookie/consent notice.
+
+SEO & Meta
+
+Title: JobJam — Job Coaching for First-Time Jobseekers in NZ
+
+Meta description: JobJam helps New Zealand’s first-time jobseekers land their first role with coaching, interview training, CV help, and salary negotiation skills. 100% guarantee.
+
+Keywords: first job NZ, job coaching NZ, interview practice NZ, salary negotiation NZ.
+
+Extra
+
+Accessibility: alt text, WCAG contrast, keyboard navigable.
+
+Animations: subtle hero fade/slide, hover effects on course cards.
+
+Mobile responsive.
