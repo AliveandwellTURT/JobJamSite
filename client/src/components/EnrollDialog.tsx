@@ -85,9 +85,9 @@ export default function EnrollDialog({ open, onOpenChange, selectedCourse }: Enr
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto" data-testid="dialog-enroll">
         <DialogHeader>
-          <DialogTitle className="font-heading text-2xl">Enrol in JobJam</DialogTitle>
+          <DialogTitle className="font-heading text-2xl">Apply for Interview</DialogTitle>
           <DialogDescription>
-            Fill out the form below and we'll get in touch within 24 hours to finalize your enrollment
+            Fill out the form below to apply for a placement. Rohan will contact you within 24 hours to schedule your interview.
           </DialogDescription>
         </DialogHeader>
 
@@ -130,7 +130,7 @@ export default function EnrollDialog({ open, onOpenChange, selectedCourse }: Enr
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="course">Preferred course *</Label>
+            <Label htmlFor="course">Course of interest *</Label>
             <Select
               value={formData.course}
               onValueChange={(value) => setFormData(prev => ({ ...prev, course: value }))}
@@ -148,26 +148,14 @@ export default function EnrollDialog({ open, onOpenChange, selectedCourse }: Enr
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="startDate">Preferred start date (optional)</Label>
-            <Input
-              id="startDate"
-              name="startDate"
-              type="date"
-              value={formData.startDate}
-              onChange={handleChange}
-              data-testid="input-startdate"
-            />
-          </div>
-
-          <div className="space-y-2">
-            <Label htmlFor="note">Additional information (optional)</Label>
+            <Label htmlFor="note">Why do you want to join JobJam? (optional)</Label>
             <Textarea
               id="note"
               name="note"
               value={formData.note}
               onChange={handleChange}
               rows={3}
-              placeholder="Tell us about your job search goals..."
+              placeholder="Tell us about your career goals..."
               data-testid="input-note"
             />
           </div>
@@ -209,7 +197,7 @@ export default function EnrollDialog({ open, onOpenChange, selectedCourse }: Enr
               disabled={isSubmitting}
               data-testid="button-submit-enroll"
             >
-              {isSubmitting ? "Submitting..." : "Submit enrollment"}
+              {isSubmitting ? "Submitting..." : "Apply now"}
             </Button>
           </div>
         </form>

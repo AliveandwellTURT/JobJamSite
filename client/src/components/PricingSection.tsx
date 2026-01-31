@@ -95,7 +95,7 @@ export default function PricingSection({ onEnrollClick }: PricingSectionProps) {
                     {course.price}
                   </div>
                   <div className="text-sm text-muted-foreground mt-1">
-                    {course.payment}
+                    Invoice sent after interview
                   </div>
                 </div>
               </CardHeader>
@@ -118,7 +118,7 @@ export default function PricingSection({ onEnrollClick }: PricingSectionProps) {
                   onClick={() => onEnrollClick(course.name)}
                   data-testid={`button-enroll-${index}`}
                 >
-                  {course.cta}
+                  Apply for interview
                 </Button>
               </CardFooter>
             </Card>
