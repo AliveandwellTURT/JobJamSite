@@ -9,10 +9,10 @@ import testimonial3 from "@assets/generated_images/Testimonial_portrait_diverse_
 
 const testimonials = [
   {
-    name: "Sophie Chen",
-    role: "Marketing Assistant",
+    name: "Oscar Wakfield",
+    role: "Life Nooby",
     image: testimonial1,
-    quote: "I was so nervous about my first interview, but Rohan's coaching made all the difference. I got the job and negotiated $5k more than the initial offer!",
+    quote: "'chinees accent' hi iim cooder cuz i changed thus testimoonal widout whucking up rest ov aplicatiooon",
   },
   {
     name: "James Patel",
