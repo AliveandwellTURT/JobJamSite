@@ -58,7 +58,7 @@ export default function Header({ onEnrollClick }: HeaderProps) {
             className="flex items-center gap-2 hover-elevate active-elevate-2 rounded-md px-2 py-1 -ml-2"
             data-testid="button-home"
           >
-            <img src={logoImg} alt="JobJam Logo" className="h-10 w-auto" />
+            <img src={logoImg} alt="JobJam Logo" className="h-24 w-auto mix-blend-multiply dark:mix-blend-screen" />
           </button>
 
           <nav className="hidden md:flex items-center gap-1">
