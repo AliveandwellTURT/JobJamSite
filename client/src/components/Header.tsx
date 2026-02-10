@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
-import logoImg from "@assets/jobjam-logo-transparent.png";
+import logoImg from "../assets/jobjam-logo-transparent.png";
 
 interface HeaderProps {
   onEnrollClick: () => void;
