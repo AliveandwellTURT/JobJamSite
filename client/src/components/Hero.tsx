@@ -22,8 +22,8 @@ export default function Hero({ onEnrollClick, onCoursesClick }: HeroProps) {
             </h1>
             
             <p className="text-lg text-muted-foreground max-w-2xl">
-              Over 12 years helping 1,500+ people. Interview practice, salary negotiation,
-              and ongoing support for first-time jobseekers in NZ.
+              Over 15 years helping 1,500+ people. Interview practice, salary negotiation,
+              and ongoing support for jobseekers in NZ.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -32,7 +32,7 @@ export default function Hero({ onEnrollClick, onCoursesClick }: HeroProps) {
                 onClick={onEnrollClick}
                 data-testid="button-enroll-hero"
               >
-                Enrol now
+                Book a call
               </Button>
               <Button
                 size="lg"
@@ -58,7 +58,7 @@ export default function Hero({ onEnrollClick, onCoursesClick }: HeroProps) {
         <div className="mt-12 pt-8 border-t">
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-sm text-muted-foreground">
             <div className="flex items-center gap-2" data-testid="stat-experience">
-              <span className="font-semibold text-foreground">12+ years</span> experience
+              <span className="font-semibold text-foreground">15+ years</span> experience
             </div>
             <div className="hidden sm:block text-muted-foreground/50">•</div>
             <div className="flex items-center gap-2" data-testid="stat-placements">

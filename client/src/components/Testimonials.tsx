@@ -9,10 +9,10 @@ import testimonial3 from "@assets/generated_images/Testimonial_portrait_diverse_
 
 const testimonials = [
   {
-    name: "Oscar Wakfield",
+    name: "louis",
     role: "Life Nooby",
     image: testimonial1,
-    quote: "'chinees accent' hi iim cooder cuz i changed thus testimoonal widout whucking up rest ov aplicatiooon",
+    quote: "Best dad ever",
   },
   {
     name: "James Patel",

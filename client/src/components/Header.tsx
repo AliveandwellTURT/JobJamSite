@@ -83,7 +83,7 @@ export default function Header({ onEnrollClick }: HeaderProps) {
               className="hidden sm:inline-flex"
               data-testid="button-enroll-header"
             >
-              Enrol now
+              Book a call
             </Button>
 
             <button
@@ -116,7 +116,7 @@ export default function Header({ onEnrollClick }: HeaderProps) {
                 className="w-full"
                 data-testid="button-enroll-mobile"
               >
-                Enrol now
+                Book a call
               </Button>
             </div>
           </div>

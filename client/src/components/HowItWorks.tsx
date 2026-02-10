@@ -3,18 +3,18 @@ import { CheckCircle, Users, Briefcase } from "lucide-react";
 const steps = [
   {
     icon: CheckCircle,
-    title: "Apply for an interview",
-    description: "Fill out the simple sign-up form to express your interest in a course.",
+    title: "Book a call",
+    description: "Fill out the simple form to express your interest in a course.",
   },
   {
     icon: Users,
-    title: "1-on-1 Interview",
-    description: "Meet with Rohan for a brief interview to ensure the program is the right fit for you.",
+    title: "15 minute chat",
+    description: "Meet with Rohan for a brief chat to ensure the program is the right fit for you.",
   },
   {
     icon: Briefcase,
-    title: "Invoice & Enrolment",
-    description: "Receive your invoice, complete payment, and start your journey to a new career.",
+    title: "Contract & Enrolment",
+    description: "Receive your contract, read it carefully, sign it, and start your journey to a new career.",
   },
 ];
 

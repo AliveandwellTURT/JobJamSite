@@ -57,7 +57,7 @@ export default function Contact() {
             <CardHeader>
               <CardTitle>Send us a message</CardTitle>
               <CardDescription>
-                Fill out the form and we'll respond within 24 hours
+                Fill out the form and we'll respond within 48 hours
               </CardDescription>
             </CardHeader>
             <CardContent>

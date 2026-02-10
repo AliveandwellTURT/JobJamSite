@@ -9,50 +9,54 @@ interface PricingSectionProps {
 
 const courses = [
   {
-    name: "2-Hour Intro",
-    price: "$300",
-    payment: "One-time payment",
-    description: "Perfect for those wanting a quick start",
+    name: "15 Minute Career Chat",
+    price: "FREE",
+    payment: "$0",
+    description: "Perfect for understanding your career options",
     features: [
-      "2 hours of live coaching",
-      "CV review and checklist",
-      "Mock interview session",
-      "Email support for 1 week",
+      "Access to monthly events",
+      "CV review and recomendations",
+      "A career and salary assessment",
     ],
-    cta: "Enrol now",
+    cta: "Book a call",
     featured: false,
   },
   {
-    name: "12-Month Support Plan",
-    price: "$3,000",
-    payment: "$500 upfront + $500/mo × 5",
+    name: "8 Month Support Plan",
+    price: "$0-$3,000",
+    payment: "$0 upfront, $3,000 after securing a job",
     description: "Comprehensive support until you land your job",
     features: [
-      "Weekly check-ins and coaching",
+      "$0 upfront, $3,000 after securing a job",
+      "Fortnightly check-ins and coaching",
       "Full interview preparation",
       "CV and cover letter support",
       "Salary negotiation training",
+      "LinkedIn profile optimization",
+      "Over 10,000 Industry connections",
       "Job search strategy sessions",
-      "100% money-back guarantee",
+      "100% FREE if you do not land a job",
     ],
-    cta: "Sign up",
+    cta: "Book a call",
     featured: true,
     badge: "Best Value",
   },
   {
-    name: "6-Month Fast Path",
-    price: "$6,000",
-    payment: "$1,000 upfront + $1,000/mo × 5",
+    name: "4 Month Fast Path",
+    price: "$0-$6,000",
+    payment: "0 upfront + $6,000 after securing a job",
     description: "Accelerated program with priority support",
     features: [
-      "Everything in 12-Month Plan",
-      "Priority 24/7 support access",
-      "Twice-weekly coaching sessions",
-      "LinkedIn profile optimization",
-      "Industry connections & referrals",
-      "100% money-back guarantee",
+      "0 upfront + $6,000 after securing a job",
+      "Everything in 8 Month Plan",
+      "Priority support access",
+      "Weekly coaching sessions",
+      "LinkedIn approach support",
+      "Introduction letter support",
+      "Detailed networking support",
+      "100% FREE if you do not land a job",
     ],
-    cta: "Buy now",
+    cta: "Book a call",
     featured: false,
   },
 ];
@@ -66,7 +70,7 @@ export default function PricingSection({ onEnrollClick }: PricingSectionProps) {
             Choose your path to success
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            All plans include expert coaching from someone who's helped 1,500+ people land their first job
+            All plans include expert coaching from someone who's helped 1,500+ people land their dream job
           </p>
         </div>
 
@@ -95,7 +99,7 @@ export default function PricingSection({ onEnrollClick }: PricingSectionProps) {
                     {course.price}
                   </div>
                   <div className="text-sm text-muted-foreground mt-1">
-                    Invoice sent after interview
+                    Contract sent after interview
                   </div>
                 </div>
               </CardHeader>
@@ -118,7 +122,7 @@ export default function PricingSection({ onEnrollClick }: PricingSectionProps) {
                   onClick={() => onEnrollClick(course.name)}
                   data-testid={`button-enroll-${index}`}
                 >
-                  Apply for interview
+                  Book a call
                 </Button>
               </CardFooter>
             </Card>
@@ -127,7 +131,7 @@ export default function PricingSection({ onEnrollClick }: PricingSectionProps) {
 
         <div className="bg-accent/10 border border-accent/20 rounded-lg p-6 text-center">
           <p className="text-lg font-semibold text-foreground">
-            Our promise: Get a job within your plan's timeframe or your money back.
+            Our promise: Get a job within your plan's timeframe or it's free!
           </p>
         </div>
       </div>

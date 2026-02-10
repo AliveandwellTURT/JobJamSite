@@ -6,13 +6,13 @@ const benefits = [
     icon: MessageSquare,
     title: "Interview practice that feels real",
     description:
-      "Mock interviews with real-time feedback, helping you feel confident and prepared for the actual thing.",
+      "Mock interviews with real time feedback, helping you feel confident and prepared for the actual thing.",
   },
   {
     icon: DollarSign,
     title: "Salary & negotiation training",
     description:
-      "Learn how to research market rates, present your value, and negotiate your first salary with confidence.",
+      "Learn how to understand your worth, present your value, and negotiate your first salary with confidence.",
   },
   {
     icon: User,

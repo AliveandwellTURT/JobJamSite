@@ -8,11 +8,11 @@ import {
 const faqs = [
   {
     question: "What if I don't get a job?",
-    answer: "We offer a 100% money-back guarantee. If you complete all the required coaching sessions and follow our guidance but don't land a job within your plan's timeframe, we'll refund your payment in full. Your success is our priority.",
+    answer: "You don't pay a thing! If you complete all the required coaching sessions and follow our guidance but don't land a job within your plan's timeframe, we'll refund your payment in full. Your success is our priority.",
   },
   {
     question: "Do you offer refunds?",
-    answer: "Yes. If you're not satisfied within the first 14 days, we'll provide a full refund, no questions asked. After that, refunds are available if you don't secure a job within your plan's timeframe after completing all requirements.",
+    answer: "Yes. If you're not satisfied within the first 7 days, you dont pay a thing, no questions asked.",
   },
   {
     question: "Is coaching online or in-person?",
@@ -20,19 +20,19 @@ const faqs = [
   },
   {
     question: "Can I pay in instalments?",
-    answer: "Yes! Both our 12-Month Support Plan and 6-Month Fast Path offer instalment options. You pay an upfront amount followed by monthly payments, making it easier to invest in your career without the full cost upfront.",
+    answer: "Yes! Both our 8 Month Support Plan and 4 Month Fast Path offer instalment options. After securing your job, you pay an upfront amount followed by monthly payments, making it easier to invest in your career.",
   },
   {
     question: "What results can I expect?",
-    answer: "Most clients secure job offers within 2-4 months of starting their coaching program. You'll gain interview confidence, a polished CV, salary negotiation skills, and ongoing support until you land the right role. We've helped 1,500+ people land their first job.",
+    answer: "Most clients secure job offers within 4-6 months of starting their coaching program. You'll gain interview confidence, a polished CV, salary negotiation skills, and ongoing support until you land the right role. I've helped 1,500+ people land their first job.",
   },
   {
     question: "Who is this program for?",
-    answer: "JobJam is designed specifically for first-time jobseekers aged 16-24 in New Zealand who want professional guidance to land their first role. Whether you're a school leaver, university graduate, or career changer, we'll help you build the skills and confidence you need.",
+    answer: "JobJam is for people who want to take control of their job search. It’s designed for first time jobseekers, career changers, and anyone feeling blocked, undervalued, or unsure how to move forward. If you’re looking for a new role, more challenge, or a pay rise, JobJam gives you practical tools and support to make it happen.",
   },
   {
     question: "How much time do I need to commit?",
-    answer: "It depends on your plan. The 2-Hour Intro is a single session. The 12-Month Plan includes weekly check-ins (1-2 hours), and the 6-Month Fast Path has twice-weekly sessions. You'll also spend time on homework like CV revisions and interview prep.",
+    answer: "You get out of JobJam what you put in. The program starts with a core block of learning in the first two weeks, around 40 hours total. If you can’t do this full time, you can spread it over a month part time, at roughly 20 hours a week, and complete it at your own pace. After that, there are compulsory checkins. If you’re on the four month plan, these happen weekly. On the eight month plan, they’re fortnightly. You can also book additional sessions. From experience, the people who see the best results are those who commit at least 20 hours a week to their job hunt. That time includes learning, applications, networking, and prep.",
   },
 ];
 

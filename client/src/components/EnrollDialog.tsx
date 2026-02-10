@@ -58,7 +58,7 @@ export default function EnrollDialog({ open, onOpenChange, selectedCourse }: Enr
     
     toast({
       title: "Enrollment submitted!",
-      description: "We'll contact you within 24 hours to finalize your enrollment.",
+      description: "We'll contact you within 48 hours to finalize your enrollment.",
     });
     
     setFormData({
@@ -85,9 +85,9 @@ export default function EnrollDialog({ open, onOpenChange, selectedCourse }: Enr
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto" data-testid="dialog-enroll">
         <DialogHeader>
-          <DialogTitle className="font-heading text-2xl">Apply for Interview</DialogTitle>
+          <DialogTitle className="font-heading text-2xl">Book a call</DialogTitle>
           <DialogDescription>
-            Fill out the form below to apply for a placement. Rohan will contact you within 24 hours to schedule your interview.
+            Fill out the form below to book a call. Rohan will contact you within 48 hours to schedule a chat.
           </DialogDescription>
         </DialogHeader>
 
@@ -118,7 +118,7 @@ export default function EnrollDialog({ open, onOpenChange, selectedCourse }: Enr
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="phone">Phone (optional)</Label>
+            <Label htmlFor="phone">Phone *</Label>
             <Input
               id="phone"
               name="phone"
@@ -140,15 +140,15 @@ export default function EnrollDialog({ open, onOpenChange, selectedCourse }: Enr
                 <SelectValue placeholder="Select a course" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="2-Hour Intro">2-Hour Intro ($300)</SelectItem>
-                <SelectItem value="12-Month Support Plan">12-Month Support Plan ($3,000)</SelectItem>
-                <SelectItem value="6-Month Fast Path">6-Month Fast Path ($6,000)</SelectItem>
+                <SelectItem value="2-Hour Intro">15 Minute Career Call (FREE)</SelectItem>
+                <SelectItem value="12-Month Support Plan">8 Month Support Plan (FREE now, $3k on Job Success)</SelectItem>
+                <SelectItem value="6-Month Fast Path">4 Month Fast Path (FREE now, $6k on Job Success)</SelectItem>
               </SelectContent>
             </Select>
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="note">Why do you want to join JobJam? (optional)</Label>
+            <Label htmlFor="note">Why do you want to join JobJam? *</Label>
             <Textarea
               id="note"
               name="note"

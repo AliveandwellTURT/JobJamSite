@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-muted-foreground">
-            © {currentYear} JobJam. All rights reserved.
+            © {currentYear} Jobjam. All rights reserved.
           </div>
           
           <div className="flex flex-wrap justify-center gap-6 text-sm">

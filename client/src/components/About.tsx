@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="font-heading font-bold text-3xl sm:text-4xl mb-4">
-            About JobJam
+            About Jobjam
           </h2>
           <p className="text-lg text-muted-foreground">
             Founded on experience, driven by results
@@ -17,24 +17,19 @@ export default function About() {
           <div className="order-2 md:order-1">
             <div className="space-y-4 text-lg">
               <p className="text-muted-foreground">
-                With <span className="font-semibold text-foreground">12+ years of experience</span>,{" "}
+                With <span className="font-semibold text-foreground">15+ years of experience</span>,{" "}
                 <span className="font-semibold text-foreground">3,000+ interviews</span>, and{" "}
-                <span className="font-semibold text-foreground">1,500+ placements</span>, I created
-                JobJam to help young people navigate their first job search with confidence.
+                <span className="font-semibold text-foreground">1,500+ placements</span>, I created Jobjam to help people feel confident, capable, and in charge of their job hunt.
               </p>
               <p className="text-muted-foreground">
-                I've seen firsthand how daunting the job market can be for first-time seekers. That's
-                why I built a program that combines practical skills with ongoing support — so you're
-                never alone in your journey.
+                I’ve seen how daunting the job market can be, whether you’re starting out, changing direction, or pushing for your next step. That’s why I built a program that combines practical skills with ongoing support, so you’re not navigating it alone
               </p>
               <p className="text-muted-foreground">
-                Whether you're fresh out of school, graduating university, or looking for your first
-                professional role, JobJam gives you the coaching, confidence, and tools you need to
-                succeed.
+                Whether you’re starting out, changing direction, or aiming for a raise, Jobjam helps you take control of your career with confidence and direction.
               </p>
               <div className="pt-4">
                 <p className="font-semibold text-foreground">Rohan Wakefield</p>
-                <p className="text-sm text-muted-foreground">Founder, JobJam</p>
+                <p className="text-sm text-muted-foreground">Founder, Jobjam</p>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ export default function CTA({ onEnrollClick }: CTAProps) {
           Ready to land your first job?
         </h2>
         <p className="text-lg mb-8 text-primary-foreground/90 max-w-2xl mx-auto">
-          Join 1,500+ successful jobseekers who've launched their careers with JobJam.
+          Join 1,500+ successful jobseekers who've launched their careers with me.
           Your future starts here.
         </p>
         <Button
