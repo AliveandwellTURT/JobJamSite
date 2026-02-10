@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
+import logoImg from "@assets/jobjamlogo_1770756883043.png";
+
 interface HeaderProps {
   onEnrollClick: () => void;
 }
@@ -56,12 +58,7 @@ export default function Header({ onEnrollClick }: HeaderProps) {
             className="flex items-center gap-2 hover-elevate active-elevate-2 rounded-md px-2 py-1 -ml-2"
             data-testid="button-home"
           >
-            <div className="text-2xl font-heading font-bold text-primary">
-              JobJa
-              <span className="inline-block w-6 h-6 bg-accent rounded-sm text-accent-foreground text-center leading-6 text-sm align-middle ml-0.5">
-                m
-              </span>
-            </div>
+            <img src={logoImg} alt="JobJam Logo" className="h-10 w-auto" />
           </button>
 
           <nav className="hidden md:flex items-center gap-1">
