@@ -1,4 +1,4 @@
-import founderImage from "@assets/generated_images/Founder_Rohan_Wakefield_headshot_a2be957d.png";
+import founderImage from "@assets/ChatGPT_Image_Feb_12,_2026,_12_53_29_PM_1770854078225.png";
 
 export default function About() {
   return (
@@ -38,7 +38,7 @@ export default function About() {
             <img
               src={founderImage}
               alt="Rohan Wakefield, founder of JobJam"
-              className="rounded-lg w-80 h-80 object-cover"
+              className="rounded-lg w-full max-w-md aspect-[4/3] object-cover shadow-lg"
               data-testid="img-founder"
             />
           </div>
