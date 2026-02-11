@@ -61,7 +61,10 @@ export default function Header({ onEnrollClick }: HeaderProps) {
             <img 
               src={logoImg} 
               alt="JobJam Logo" 
-              className="h-10 w-auto object-contain brightness-100 contrast-100 invert dark:invert-0" 
+              className="h-10 w-auto object-contain brightness-0 contrast-200 sepia-[.3] saturate-[2] hue-rotate-[180deg] dark:invert-0" 
+              style={{ 
+                filter: 'brightness(0) saturate(100%) invert(11%) sepia(59%) saturate(4108%) hue-rotate(195deg) brightness(95%) contrast(92%)' 
+              }}
               data-testid="img-logo"
             />
           </button>
