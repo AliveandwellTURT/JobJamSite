@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
-import logoImg from "../assets/jobjam-logo-new.png";
+import logoImg from "@assets/ChatGPT_Image_Feb_12,_2026,_09_56_09_AM_(1)_1770853350816.png";
 
 interface HeaderProps {
   onEnrollClick: () => void;
@@ -61,12 +61,8 @@ export default function Header({ onEnrollClick }: HeaderProps) {
             <img 
               src={logoImg} 
               alt="JobJam Logo" 
-              className="h-14 w-auto object-cover mix-blend-multiply dark:mix-blend-screen" 
-              style={{ 
-                objectPosition: 'center', 
-                clipPath: 'inset(20% 0% 35% 0%)',
-                filter: 'brightness(1.02) contrast(1.1) saturate(1.1)'
-              }}
+              className="h-10 w-auto object-contain brightness-100 contrast-100 invert dark:invert-0" 
+              data-testid="img-logo"
             />
           </button>
 
