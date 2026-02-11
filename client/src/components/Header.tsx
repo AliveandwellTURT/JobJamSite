@@ -61,7 +61,7 @@ export default function Header({ onEnrollClick }: HeaderProps) {
             <img 
               src={logoImg} 
               alt="JobJam Logo" 
-              className="h-32 w-auto object-cover" 
+              className="h-32 w-auto object-cover brightness-125 contrast-125 mix-blend-multiply dark:mix-blend-screen" 
               style={{ objectPosition: 'center', clipPath: 'inset(15% 10% 15% 10%)' }}
             />
           </button>
