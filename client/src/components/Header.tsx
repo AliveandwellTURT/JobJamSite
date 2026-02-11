@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
-import logoImg from "../assets/jobjam-logo-transparent.png";
+import logoImg from "../assets/jobjam-logo-new.png";
 
 interface HeaderProps {
   onEnrollClick: () => void;
@@ -61,7 +61,8 @@ export default function Header({ onEnrollClick }: HeaderProps) {
             <img 
               src={logoImg} 
               alt="JobJam Logo" 
-              className="h-48 w-auto" 
+              className="h-32 w-auto object-cover" 
+              style={{ objectPosition: 'center', clipPath: 'inset(15% 10% 15% 10%)' }}
             />
           </button>
 
