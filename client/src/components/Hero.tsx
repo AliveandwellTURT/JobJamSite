@@ -17,8 +17,8 @@ export default function Hero({ onEnrollClick, onCoursesClick }: HeroProps) {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
             <h1 className="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight text-foreground">
-              Get your first job — with real coaching, real confidence, and a{" "}
-              <span className="text-accent">100% guarantee</span>.
+              Get your dream job — with real coaching, real confidence, or it's{" "}
+              <span className="text-accent">100% FREE.</span>
             </h1>
             
             <p className="text-lg text-muted-foreground max-w-2xl">
