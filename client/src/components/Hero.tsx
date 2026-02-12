@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@assets/generated_images/Hero_coaching_session_image_22124624.png";
+import heroImage from "@assets/Hero_coaching_session_image_22124624.png";
 
 interface HeroProps {
   onEnrollClick: () => void;
