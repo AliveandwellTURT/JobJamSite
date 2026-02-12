@@ -39,7 +39,6 @@ export default function Header({ onEnrollClick }: HeaderProps) {
     { label: "Home", id: "home" },
     { label: "Courses", id: "courses" },
     { label: "FAQ", id: "faq" },
-    { label: "Testimonials", id: "testimonials" },
     { label: "About", id: "about" },
     { label: "Contact", id: "contact" },
   ];

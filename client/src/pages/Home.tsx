@@ -48,7 +48,6 @@ export default function Home() {
         <ValueSection />
         <PricingSection onEnrollClick={handleEnrollClick} />
         <HowItWorks />
-        <Testimonials />
         <FAQ />
         <About />
         <CTA onEnrollClick={() => handleEnrollClick()} />

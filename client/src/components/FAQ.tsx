@@ -28,11 +28,11 @@ const faqs = [
   },
   {
     question: "Who is this program for?",
-    answer: "JobJam is for people who want to take control of their job search. It’s designed for first time jobseekers, career changers, and anyone feeling blocked, undervalued, or unsure how to move forward. If you’re looking for a new role, more challenge, or a pay rise, JobJam gives you practical tools and support to make it happen.",
+    answer: "Jobjam is for people who want to take control of their job search. It’s designed for first time jobseekers, career changers, and anyone feeling blocked, undervalued, or unsure how to move forward. If you’re looking for a new role, more challenge, or a pay rise, JobJam gives you practical tools and support to make it happen.",
   },
   {
     question: "How much time do I need to commit?",
-    answer: "You get out of JobJam what you put in. The program starts with a core block of learning in the first two weeks, around 40 hours total. If you can’t do this full time, you can spread it over a month part time, at roughly 20 hours a week, and complete it at your own pace. After that, there are daily checkins. From experience, the people who see the best results are those who commit at least 20 hours a week to their job hunt. That time includes learning, applications, networking, and prep.",
+    answer: "You get out of Jobjam what you put in. The program starts with a core block of learning in the first two weeks, around 40 hours total. If you can’t do this full time, you can spread it over a month part time, at roughly 20 hours a week, and complete it at your own pace. After that, there are daily checkins. From experience, the people who see the best results are those who commit at least 20 hours a week to their job hunt. That time includes learning, applications, networking, and prep.",
   },
 ];
 
