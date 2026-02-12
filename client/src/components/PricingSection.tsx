@@ -35,12 +35,14 @@ const courses = [
     description: "Comprehensive support until you land your job",
     features: [
       "$0 upfront, $3,000 after securing a job",
-      "Fortnightly check-ins and coaching",
+      "Daily check-ins and coaching",
       "Full interview preparation",
       "CV and cover letter support",
       "Salary negotiation training",
       "LinkedIn profile optimization",
+      "Introduction letter support",
       "Over 10,000 Industry connections",
+      "Detailed networking support",
       "Job search strategy sessions",
       "100% FREE if you do not land a job",
     ],
@@ -56,11 +58,16 @@ const courses = [
     features: [
       "0 upfront + $6,000 after securing a job",
       "Everything in 8 Month Plan",
-      "Priority support access",
-      "Weekly coaching sessions",
+      "Priority 1 on 1 support access",
+      "Daily coaching sessions",
+      "Full interview preparation",
+      "CV and cover letter support",
+      "Salary negotiation training",
       "LinkedIn approach support",
       "Introduction letter support",
+      "Over 10,000 Industry connections",
       "Detailed networking support",
+      "Job search strategy sessions",
       "100% FREE if you do not land a job",
     ],
     cta: "Book a call",
@@ -123,7 +130,9 @@ export default function PricingSection({ onEnrollClick }: PricingSectionProps) {
                   {course.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <Check className="h-5 w-5 text-ring flex-shrink-0 mt-0.5" />
-                      <span className="text-sm">{feature}</span>
+                      <span className={`text-sm ${feature === "Priority 1 on 1 support access" ? "font-bold" : ""}`}>
+                        {feature}
+                      </span>
                     </li>
                   ))}
                 </ul>
