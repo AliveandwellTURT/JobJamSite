@@ -12,7 +12,7 @@ export default function CTA({ onEnrollClick }: CTAProps) {
           Ready to land your first job?
         </h2>
         <p className="text-lg mb-8 text-primary-foreground/90 max-w-2xl mx-auto">
-          Join 1,500+ successful jobseekers who've launched their careers with me.
+          Join 1,500+ successful jobseekers who've found their dream job with my help.
           Your future starts here.
         </p>
         <Button
@@ -21,7 +21,7 @@ export default function CTA({ onEnrollClick }: CTAProps) {
           className="bg-accent text-accent-foreground hover:bg-accent border border-accent-border"
           data-testid="button-enroll-cta"
         >
-          Enrol now
+          Book a call
         </Button>
       </div>
     </section>

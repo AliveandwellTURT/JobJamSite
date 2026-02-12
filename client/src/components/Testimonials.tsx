@@ -49,7 +49,7 @@ export default function Testimonials() {
             Success stories
           </h2>
           <p className="text-lg text-muted-foreground">
-            Hear from people who landed their first job with JobJam
+            Hear from people who have had Rohan's coaching and success
           </p>
         </div>
 

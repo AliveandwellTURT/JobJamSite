@@ -1,4 +1,11 @@
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Check } from "lucide-react";
@@ -63,14 +70,19 @@ const courses = [
 
 export default function PricingSection({ onEnrollClick }: PricingSectionProps) {
   return (
-    <section id="courses" className="py-16 md:py-20 bg-card" data-testid="section-pricing">
+    <section
+      id="courses"
+      className="py-16 md:py-20 bg-card"
+      data-testid="section-pricing"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="font-heading font-bold text-3xl sm:text-4xl mb-4">
             Choose your path to success
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            All plans include expert coaching from someone who's helped 1,500+ people land their dream job
+            All plans include expert coaching from someone who's helped 1,500+
+            people land their dream job
           </p>
         </div>
 
@@ -90,9 +102,11 @@ export default function PricingSection({ onEnrollClick }: PricingSectionProps) {
                   </Badge>
                 </div>
               )}
-              
+
               <CardHeader>
-                <CardTitle className="font-heading text-2xl">{course.name}</CardTitle>
+                <CardTitle className="font-heading text-2xl">
+                  {course.name}
+                </CardTitle>
                 <CardDescription>{course.description}</CardDescription>
                 <div className="mt-4">
                   <div className="text-3xl font-heading font-bold text-foreground">

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@assets/ChatGPT_Image_Feb_12,_2026,_01_15_42_PM_1770855420405.png";
+import heroImage from "@assets/generated_images/Hero_coaching_session_image_22124624.png";
 
 interface HeroProps {
   onEnrollClick: () => void;
@@ -62,7 +62,7 @@ export default function Hero({ onEnrollClick, onCoursesClick }: HeroProps) {
             </div>
             <div className="hidden sm:block text-muted-foreground/50">•</div>
             <div className="flex items-center gap-2" data-testid="stat-placements">
-              <span className="font-semibold text-foreground">1,500+</span> people placed
+              <span className="font-semibold text-foreground">1,500+</span> jobseekers successful
             </div>
             <div className="hidden sm:block text-muted-foreground/50">•</div>
             <div className="flex items-center gap-2" data-testid="stat-interviews">

@@ -4,21 +4,21 @@ import { MessageSquare, DollarSign, User } from "lucide-react";
 const benefits = [
   {
     icon: MessageSquare,
-    title: "Interview practice that feels real",
+    title: "Stand Out From the Crowd",
     description:
-      "Mock interviews with real time feedback, helping you feel confident and prepared for the actual thing.",
+      "We sharpen your CV, LinkedIn, portfolio and outreach so you don’t get lost among 3,000 applicants.",
   },
   {
     icon: DollarSign,
-    title: "Salary & negotiation training",
+    title: "Perform When It Counts",
     description:
-      "Learn how to understand your worth, present your value, and negotiate your first salary with confidence.",
+      "Real interview reps, tough feedback, and story mastery so you rise above the noise.",
   },
   {
     icon: User,
-    title: "One-to-one guidance during your job hunt",
+    title: "Win the Role — and the Progression",
     description:
-      "Personal support throughout your entire journey, from applications to accepting your offer.",
+      "Salary negotiation, promotion strategy, and coaching until you secure the next step in your career.",
   },
 ];
 

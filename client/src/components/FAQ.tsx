@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: "What results can I expect?",
-    answer: "Most clients secure job offers within 4-6 months of starting their coaching program. You'll gain interview confidence, a polished CV, salary negotiation skills, and ongoing support until you land the right role. I've helped 1,500+ people land their first job.",
+    answer: "Most clients secure job offers within 4-6 months of starting their coaching program. You'll gain interview confidence, a polished CV, salary negotiation skills, and ongoing support until you land the right role. I've helped 1,500+ people land their dream job.",
   },
   {
     question: "Who is this program for?",
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: "How much time do I need to commit?",
-    answer: "You get out of JobJam what you put in. The program starts with a core block of learning in the first two weeks, around 40 hours total. If you can’t do this full time, you can spread it over a month part time, at roughly 20 hours a week, and complete it at your own pace. After that, there are compulsory checkins. If you’re on the four month plan, these happen weekly. On the eight month plan, they’re fortnightly. You can also book additional sessions. From experience, the people who see the best results are those who commit at least 20 hours a week to their job hunt. That time includes learning, applications, networking, and prep.",
+    answer: "You get out of JobJam what you put in. The program starts with a core block of learning in the first two weeks, around 40 hours total. If you can’t do this full time, you can spread it over a month part time, at roughly 20 hours a week, and complete it at your own pace. After that, there are daily checkins. From experience, the people who see the best results are those who commit at least 20 hours a week to their job hunt. That time includes learning, applications, networking, and prep.",
   },
 ];
 
