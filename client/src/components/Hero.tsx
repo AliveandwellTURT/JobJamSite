@@ -22,7 +22,7 @@ export default function Hero({ onEnrollClick, onCoursesClick }: HeroProps) {
             </h1>
             
             <p className="text-lg text-muted-foreground max-w-2xl">
-              Over 15 years helping 1,500+ people. Interview practice, salary negotiation,
+              Over 15 years helping 1,500+ Kiwis. Interview practice, salary negotiation,
               and ongoing support for jobseekers in NZ.
             </p>
 
